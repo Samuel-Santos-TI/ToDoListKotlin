@@ -1,4 +1,4 @@
-package Classes
+package classes
 
 class Tarefa (val nome : String, val data: String, val hora: String, var terminado: Boolean){
     override fun toString(): String {

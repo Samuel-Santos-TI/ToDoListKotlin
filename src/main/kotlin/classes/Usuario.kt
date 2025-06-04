@@ -1,4 +1,4 @@
-package Classes
+package classes
 import acessar
 
 import clearConsole
@@ -91,7 +91,7 @@ class Usuario(val nome: String) {
                 if (escolha.uppercase() == "N") {
                     menu()
                 } else {
-                    for ((indice, tarefa) in toDoList.withIndex()) {
+                    for (indice in toDoList.indices) {
                         if (indice == escolha.toInt()-1) {
                             toDoList[indice].terminado = !toDoList[indice].terminado
                             print("O estado foi mudado com sucesso, tecle ENTER para voltar ao menu: ")

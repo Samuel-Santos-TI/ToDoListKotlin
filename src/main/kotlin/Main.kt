@@ -1,4 +1,4 @@
-import Classes.ToDoList
+import classes.ToDoList
 import java.util.Scanner
 
 val leitor = Scanner(System.`in`)
